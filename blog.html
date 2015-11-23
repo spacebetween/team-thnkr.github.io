@@ -2,22 +2,31 @@
 layout: default
 ---
 
-<div class="home row">
+<div class="row">
 
-  <h2 class="column">Blog</h1>
+  <h1 class="column">Blog</h1>
 
-  <ul class="posts">
+  <ul class="posts columns medium-8 large-6">
     {% for post in site.posts %}
       <li class="post">
-        <a class="post_link column small-6" href="{{ post.url | prepend: site.baseurl }}">
-          <h3 class="post_title">{{ post.title }}</h3>
-          <p class="post_excerpt">{{ post.excerpt }}</p>
-        </a>
-        <span class="pull-right column small-6">
-          <span class="post_meta column">By {{ post.author }}</span>
-          <span class="post_meta column">{{ post.date | date: "%-d %B %Y" }}</span>
-          <img class="post_image" src="https://www.gravatar.com/avatar/{{ post.photo }}?s=100">
-        </span>
+	      <div class="post_header">
+	      	<img class="post_authorImage" src="https://www.gravatar.com/avatar/{{ post.authorPhoto }}?s=100">
+	      	<div class="post_meta">
+	      		<div class="post_author">
+	      			{{ post.author }}
+	      		</div>
+	      		<div class="post_date">
+	      			{{ post.date | date: "%-d %B %Y" }}
+	      		</div>
+	      	</div>
+	      </div>
+	      <a href="{{ post.url | prepend: site.baseurl }}" class="post_image" style="background-image: url('https://images.unsplash.com/photo-1441260038675-7329ab4cc264?ixlib=rb-0.3.5&q=80&fm=jpg&s=bbbe8419ad936446d8032c4de8959c83');"></a>
+	      <div class="post_body">
+	      	<a class="post_link" href="{{ post.url | prepend: site.baseurl }}">
+	      	  <h3 class="post_title">{{ post.title }}</h3>
+	      	  <p class="post_excerpt">{{ post.excerpt }}</p>
+	      	</a>
+	      </div>
       </li>
     {% endfor %}
   </ul>

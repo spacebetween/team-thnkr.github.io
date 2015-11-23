@@ -6,9 +6,26 @@
 </description>
     <link>http://thnkr.co.uk/</link>
     <atom:link href="http://thnkr.co.uk/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2015 17:38:58 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2015 17:38:58 +0000</lastBuildDate>
+    <pubDate>Mon, 23 Nov 2015 23:41:22 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 23:41:22 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Hello From Thnkr!</title>
+        <description>&lt;h1 id=&quot;hi-everybody&quot;&gt;Hi Everybody!&lt;/h1&gt;
+
+&lt;p&gt;Hello there, we are Thnkr.&lt;/p&gt;
+
+&lt;p&gt;We are a Web Agency in Ashford.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 23 Nov 2015 00:00:00 +0000</pubDate>
+        <link>http://thnkr.co.uk/thnkr/2015/11/23/hello-from-thnkr-copy.html</link>
+        <guid isPermaLink="true">http://thnkr.co.uk/thnkr/2015/11/23/hello-from-thnkr-copy.html</guid>
+        
+        
+        <category>thnkr</category>
+        
+      </item>
     
       <item>
         <title>Hello From Thnkr!</title>

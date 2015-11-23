@@ -6,9 +6,11 @@
 $body-font-family: 'Lato';
 $header-font-family: 'Abril Fatface';
 $white: #FAFAFA;
+$black: #0a0a0a;
 $primary-color: #FFAB00;
 
-
+$anchor-color: $black;
+$anchor-text-decoration-hover: underline;
 $topbar-background: $white;
 
 @import "foundation";
@@ -16,3 +18,11 @@ $topbar-background: $white;
 @include foundation-everything;
 
 @import "includes";
+
+
+a.link {
+	border-bottom: 5px solid $primary-color;
+	&:hover {
+		text-decoration: none;
+	}
+}
