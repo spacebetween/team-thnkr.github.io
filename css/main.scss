@@ -5,7 +5,14 @@
 
 $body-font-family: 'Lato';
 $header-font-family: 'Abril Fatface';
+$white: #FAFAFA;
+$primary-color: #FFAB00;
+
+
+$topbar-background: $white;
 
 @import "foundation";
 
 @include foundation-everything;
+
+@import "hero";
