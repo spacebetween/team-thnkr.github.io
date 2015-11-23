@@ -1,11 +1,21 @@
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KDKL7V"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KDKL7V');</script>
+<!-- End Google Tag Manager -->
+
 <div class="top-bar row">
 	<div class="top-bar-left">
 		<h1><a href="/">{{ site.name | upcase }}</a></h1>
 	</div>
 	<div class="top-bar-right">
 		<ul class="menu vertical text-right">
-			<li><a href="tel:01233800991">0123 3800 991 &nbsp; <i class="fa fa-phone"></i></a></li>
-			<li><a href="mailto:hello@thnkr.co.uk" target="_top">hello@thnkr.co.uk &nbsp; <i class="fa fa-envelope"></i></a></li>
+			<li><a href="tel:{{site.phone}}" data-category="topBar" data-action="phoneClick">{{site.phone}} &nbsp; <i class="fa fa-phone"></i></a></li>
+			<li><a href="mailto:{{site.email}}" target="_top"data-category="topBar" data-action="emailClick">{{site.email}} &nbsp; <i class="fa fa-envelope"></i></a></li>
       <li><a href="/blog" target="_top">Blog &nbsp; <i class="fa fa-pencil"></i></a></li>
 		</ul>
 	</div>
