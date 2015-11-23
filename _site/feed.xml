@@ -4,10 +4,10 @@
     <title>THNKR</title>
     <description>Work with us to solve solutions for real people. Generating measurable value through innovative design and development.
 </description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 23 Nov 2015 16:16:36 +0000</pubDate>
-    <lastBuildDate>Mon, 23 Nov 2015 16:16:36 +0000</lastBuildDate>
+    <link>http://thnkr.co.uk/</link>
+    <atom:link href="http://thnkr.co.uk/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 23 Nov 2015 16:43:46 +0000</pubDate>
+    <lastBuildDate>Mon, 23 Nov 2015 16:43:46 +0000</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Thu, 19 Nov 2015 10:13:50 +0000</pubDate>
-        <link>http://yourdomain.com/jekyll/update/2015/11/19/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2015/11/19/welcome-to-jekyll.html</guid>
+        <link>http://thnkr.co.uk/jekyll/update/2015/11/19/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://thnkr.co.uk/jekyll/update/2015/11/19/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
