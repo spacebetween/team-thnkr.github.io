@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home row">
+
+  <h2 class="column">Blog</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li class="post">
+        <a class="post_link column small-6" href="{{ post.url | prepend: site.baseurl }}">
+          <h3 class="post_title">{{ post.title }}</h3>
+          <p class="post_excerpt">{{ post.excerpt }}</p>
+        </a>
+        <span class="pull-right column small-6">
+          <span class="post_meta column">By {{ post.author }}</span>
+          <span class="post_meta column">{{ post.date | date: "%-d %B %Y" }}</span>
+          <img class="post_image" src="https://www.gravatar.com/avatar/{{ post.photo }}?s=100">
+        </span>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="column">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

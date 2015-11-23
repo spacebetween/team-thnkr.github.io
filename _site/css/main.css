@@ -3127,3 +3127,20 @@ table.hover tr:nth-of-type(even):hover {
   margin-bottom: 20vh; }
   .hero_title {
     font-size: 4rem; }
+
+.posts {
+  margin: 0; }
+
+.post {
+  list-style: none;
+  padding: 0; }
+  .post_meta {
+    text-align: right; }
+  .post_image {
+    width: 100px;
+    border-radius: 50%;
+    padding: 4px;
+    border: solid 1px #FFAB00;
+    background: #fff;
+    float: right;
+    margin-left: 1em; }
