@@ -8,7 +8,7 @@ categories: 	thnkr
 banner:			"http://www.gratisography.com/pictures/213_1.jpg"
 ---
 
-Ahoy there, we are Thnkr!
+Hello, we are Thnkr!
 
 We're a group of web enthusiasts based in Ashford, Kent in England. We are happiest when we are helping people interact better with websites, and pushing the web to its extreme.
 
