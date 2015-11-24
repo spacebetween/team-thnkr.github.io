@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<div class="row">
+
+	<h1 class="column">Team</h1>
+
+</div>
+
+<div class="row">
+
+	<ul class="team center columns medium-10 large-8">
+		{% for person in site.data.team %}
+			<li class="row team_member">
+				<div class="columns small-12 medium-6">
+					<img class="team_image" src="https://www.gravatar.com/avatar/{{ person.photo }}?s=100">
+					<div class="team_information">
+						<p>{{ person.name }} - <span class="team_description">{{ person.title }}</span></p>
+						{% if {{person.twitter}} %}
+							<a href="https://twitter.com/{{ person.twitter }}" class="twitter-follow-button" data-show-count="false">Follow @{{ person.twitter }}</a>
+						{% endif %}
+					</div>
+				</div>
+				<div class="columns small-12 medium-6">
+					<p>{{ person.blurb }}</p>
+				</div>
+			</li>
+		{% endfor %}
+	</ul>
+
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+</div>

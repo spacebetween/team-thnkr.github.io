@@ -1,0 +1,19 @@
+.team {
+	&_member {
+		padding: 2rem 0;
+		border-bottom: 1px solid #efefef;
+	}
+	&_image {
+		border-radius: 50%;
+		border: solid 1px $primary-color;
+		margin: 0 0 auto 0;
+	}
+	&_information {
+		display: inline-block;
+		margin: 0 0 0 1rem;
+		vertical-align: top;
+	}
+	&_description {
+		color: #888;
+	}
+}

@@ -1,0 +1,29 @@
+- john_parkinson:
+  name: John Parkinson
+  title: CEO
+  blurb: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque accumsan tellus at dolor efficitur, in feugiat nulla lobortis. Aliquam tincidunt id magna et tempor. Donec volutpat quam at egestas facilisis. Cras eget rutrum diam. Curabitur venenatis luctus nisl in mollis. Maecenas posuere odio non tortor dictum, eget placerat velit ornare. Proin auctor feugiat hendrerit. Aenean id ex tristique, rhoncus ex ac, porta arcu. Vestibulum bibendum varius lacus, et rhoncus purus viverra a."
+  photo: 
+  twitter: JohnPd3v
+- lukas_vorlicek:
+  name: Lukas Vorlicek
+  title: Developer
+  blurb: "Etiam vestibulum dignissim leo nec accumsan. Cras varius odio vitae velit volutpat sollicitudin. Aliquam tristique urna et odio egestas elementum. Nunc nulla dui, ultricies ut elementum et, aliquam ac lorem. Donec a vulputate justo, eu laoreet nisl. Praesent consequat magna eget lacinia sagittis."
+  photo: f0ca3a7bb144424405319ed91d34579c
+- luke_frake:
+  name: Luke Frake
+  title: Developer
+  blurb: "I love making things easy for people. I'm my happiest when I'm talking to people about the web, tinkering with a new piece of tech, or working on our awesome culture. If I'm not working, I'll be spending time with my better half Brianna, relaxing with a nice ale, or playing video games. Sometimes all at the same time!"
+  photo: 57a043075d8faed58073da501b422798
+  twitter: LukeFrake
+- marcus_cooke:
+  name: Marcus Cooke
+  title: Developer
+  blurb: "Pellentesque finibus lacus ac odio rutrum aliquam. Nulla sollicitudin euismod odio, sed consectetur nibh varius eu. Aliquam nec lectus metus. Aenean sagittis purus sit amet eros facilisis viverra. Curabitur efficitur sollicitudin auctor. Nam placerat blandit quam. Nullam vel lacus eu arcu varius varius. Integer bibendum ante eros, vel consectetur nisi tincidunt vel."
+  photo: e7b48462b6906adb4f458c9c574fc807
+  twitter: mjcooke88
+- petr_fruhling:
+  name: Petr Fruhling
+  title: Developer
+  blurb: "Vivamus consectetur quam mauris, in pellentesque nunc pulvinar non. Vestibulum quis maximus tortor. Cras feugiat quam luctus fringilla facilisis. In molestie sodales tortor vitae consectetur. In gravida volutpat nisi, vitae viverra mi finibus ac"
+  photo: 
+  twitter: Freela101
