@@ -1,0 +1,9 @@
+.banner {
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: block;
+    &-large {
+    	height: 400px;
+    }
+}
