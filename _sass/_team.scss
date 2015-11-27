@@ -16,4 +16,10 @@
 	&_description {
 		color: #888;
 	}
+	&_twitter {
+		color: #1b95e0;
+		&:hover {
+			color: #0c7abf;
+		}
+	}
 }
