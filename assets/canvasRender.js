@@ -26,19 +26,17 @@
     zOffset: 50,
     ambient: '#ffffff',
     diffuse: '#ffffff',
-    speed: 0.001,
+    speed: 0.0001,
     gravity: 1200,
     dampening: 0.95,
     minLimit: 10,
     maxLimit: null,
     minDistance: 20,
     maxDistance: 400,
-    autopilot: true,
+    autopilot: false,
     draw: true,
     bounds: FSS.Vector3.create(),
     step: FSS.Vector3.create(
-      Math.randomInRange(0.2, 1.0),
-      Math.randomInRange(0.2, 1.0),
       Math.randomInRange(0.2, 1.0)
     )
   };
