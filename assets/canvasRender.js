@@ -7,14 +7,14 @@
     width: 1.2,
     height: 1.2,
     depth: 10,
-    segments: 16,
+    segments: Math.ceil( window.innerWidth / 75 ),
     slices: 8,
     xRange: 0.8,
     yRange: 0.1,
     zRange: 1.0,
     ambient: '#696969',
     diffuse: '#7ba4d2',
-    speed: 0.002
+    speed: 0.0005
   };
 
   //------------------------------
@@ -23,7 +23,7 @@
   var LIGHT = {
     count: 2,
     xyScalar: 1,
-    zOffset: 100,
+    zOffset: 50,
     ambient: '#ffffff',
     diffuse: '#ffffff',
     speed: 0.001,
@@ -33,7 +33,7 @@
     maxLimit: null,
     minDistance: 20,
     maxDistance: 400,
-    autopilot: false,
+    autopilot: true,
     draw: true,
     bounds: FSS.Vector3.create(),
     step: FSS.Vector3.create(
