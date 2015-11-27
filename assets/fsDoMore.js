@@ -142,7 +142,6 @@
     createMesh();
     createLights();
     addEventListeners();
-    // addControls();
     resize(container.offsetWidth, container.offsetHeight);
     animate();
   }
@@ -349,114 +348,6 @@
     container.addEventListener('click', onMouseClick);
     container.addEventListener('mousemove', onMouseMove);
   }
-
-  // function addControls() {
-  //   var i, l, light, folder, controller;
-
-  //   // Create GUI
-  //   gui = new dat.GUI({autoPlace:false});
-  //   controls.appendChild(gui.domElement);
-
-  //   // Create folders
-  //   uiFolder = gui.addFolder('UI');
-  //   renderFolder = gui.addFolder('Render');
-  //   meshFolder = gui.addFolder('Mesh');
-  //   lightFolder = gui.addFolder('Light');
-  //   exportFolder = gui.addFolder('Export');
-
-  //   // Open folders
-  //   uiFolder.open();
-  //   renderFolder.open();
-  //   // meshFolder.open();
-  //   lightFolder.open();
-  //   // exportFolder.open();
-
-  //   // Add UI Controls
-  //   controller = uiFolder.add(UI, 'show');
-  //   controller.onChange(function(value) {
-  //     ui.className = value ? 'wrapper' : 'wrapper hide';
-  //   });
-
-  //   // Add Render Controls
-  //   controller = renderFolder.add(RENDER, 'renderer', {webgl:WEBGL, canvas:CANVAS, svg:SVG});
-  //   controller.onChange(function(value) {
-  //     setRenderer(value);
-  //   });
-
-  //   // Add Mesh Controls
-  //   controller = meshFolder.addColor(MESH, 'ambient');
-  //   controller.onChange(function(value) {
-  //     for (i = 0, l = scene.meshes.length; i < l; i++) {
-  //       scene.meshes[i].material.ambient.set(value);
-  //     }
-  //   });
-  //   controller = meshFolder.addColor(MESH, 'diffuse');
-  //   controller.onChange(function(value) {
-  //     for (i = 0, l = scene.meshes.length; i < l; i++) {
-  //       scene.meshes[i].material.diffuse.set(value);
-  //     }
-  //   });
-  //   controller = meshFolder.add(MESH, 'width', 0.05, 2);
-  //   controller.onChange(function(value) {
-  //     if (geometry.width !== value * renderer.width) { createMesh(); }
-  //   });
-  //   controller = meshFolder.add(MESH, 'height', 0.05, 2);
-  //   controller.onChange(function(value) {
-  //     if (geometry.height !== value * renderer.height) { createMesh(); }
-  //   });
-  //   controller = meshFolder.add(MESH, 'depth', 0, 50);
-  //   controller = meshFolder.add(MESH, 'segments', 1, 20);
-  //   controller.step(1);
-  //   controller.onChange(function(value) {
-  //     if (geometry.segments !== value) { createMesh(); }
-  //   });
-  //   controller = meshFolder.add(MESH, 'slices', 1, 20);
-  //   controller.step(1);
-  //   controller.onChange(function(value) {
-  //     if (geometry.slices !== value) { createMesh(); }
-  //   });
-  //   controller = meshFolder.add(MESH, 'xRange', 0, 1);
-  //   controller = meshFolder.add(MESH, 'yRange', 0, 1);
-  //   controller = meshFolder.add(MESH, 'speed', 0, 0.01);
-
-  //   // Add Light Controls
-  //   autopilotController = lightFolder.add(LIGHT, 'autopilot');
-  //   controller = lightFolder.addColor(LIGHT, 'ambient');
-  //   controller.onChange(function(value) {
-  //     for (i = 0, l = scene.lights.length; i < l; i++) {
-  //       light = scene.lights[i];
-  //       light.ambient.set(value);
-  //       light.ambientHex = light.ambient.format();
-  //     }
-  //   });
-  //   controller = lightFolder.addColor(LIGHT, 'diffuse');
-  //   controller.onChange(function(value) {
-  //     for (i = 0, l = scene.lights.length; i < l; i++) {
-  //       light = scene.lights[i];
-  //       light.diffuse.set(value);
-  //       light.diffuseHex = light.diffuse.format();
-  //     }
-  //   });
-  //   controller = lightFolder.add(LIGHT, 'count', 0, 5);
-  //   controller.step(1);
-  //   controller.onChange(function(value) {
-  //     if (scene.lights.length !== value) { createLights(); }
-  //   });
-  //   controller = lightFolder.add(LIGHT, 'zOffset', 0, 500);
-  //   controller.step(1);
-
-  //   // Add Export Controls
-  //   controller = exportFolder.add(EXPORT, 'width', 100, 4000);
-  //   controller.step(100);
-  //   controller = exportFolder.add(EXPORT, 'height', 100, 4000);
-  //   controller.step(100);
-  //   controller = exportFolder.add(EXPORT, 'drawLights');
-  //   controller = exportFolder.add(EXPORT, 'minLightX', 0, 1);
-  //   controller = exportFolder.add(EXPORT, 'maxLightX', 0, 1);
-  //   controller = exportFolder.add(EXPORT, 'minLightY', 0, 1);
-  //   controller = exportFolder.add(EXPORT, 'maxLightY', 0, 1);
-  //   controller = exportFolder.add(EXPORT, 'export');
-  // }
 
   //------------------------------
   // Callbacks
