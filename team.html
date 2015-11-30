@@ -7,7 +7,7 @@ layout: default
 	<ul class="article center columns medium-10 large-8">
 		{% for person in site.data.team %}
 			{% if person.name and person.title and person.blurb and person.photo %}
-				<li class="row article_member">
+				<li class="row article_row">
 					<div class="columns small-12 medium-6">
 						<img class="article_image" src="https://www.gravatar.com/avatar/{{ person.photo }}?s=100">
 						<div class="article_information">
