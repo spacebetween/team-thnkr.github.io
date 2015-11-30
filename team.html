@@ -4,16 +4,16 @@ layout: default
 
 <div class="row">
 
-	<ul class="team center columns medium-10 large-8">
+	<ul class="article center columns medium-10 large-8">
 		{% for person in site.data.team %}
 			{% if person.name and person.title and person.blurb and person.photo %}
-				<li class="row team_member">
+				<li class="row article_member">
 					<div class="columns small-12 medium-6">
-						<img class="team_image" src="https://www.gravatar.com/avatar/{{ person.photo }}?s=100">
-						<div class="team_information">
-							<p>{{ person.name }} - <span class="team_description">{{ person.title }}</span></p>
+						<img class="article_image" src="https://www.gravatar.com/avatar/{{ person.photo }}?s=100">
+						<div class="article_information">
+							<p>{{ person.name }} - <span class="article_description">{{ person.title }}</span></p>
 							{% if {{person.twitter}} %}
-								<a href="https://twitter.com/{{ person.twitter }}" class="team_twitter twitter-follow-button" data-show-count="false">Follow @{{ person.twitter }}</a>
+								<a href="https://twitter.com/{{ person.twitter }}" class="article_twitter twitter-follow-button" data-show-count="false">Follow @{{ person.twitter }}</a>
 							{% endif %}
 						</div>
 					</div>
