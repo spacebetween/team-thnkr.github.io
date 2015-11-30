@@ -7,7 +7,7 @@
 - lukas_vorlicek:
   name: Lukas Vorlicek
   title: Developer
-  blurb: "My name is Lukas, I'm a person"
+  blurb:
   photo: f0ca3a7bb144424405319ed91d34579c
 - luke_frake:
   name: Luke Frake
@@ -18,12 +18,12 @@
 - marcus_cooke:
   name: Marcus Cooke
   title: Director
-  blurb: "My name is Marcus, I'm a person"
+  blurb: "I'm terrible at all things"
   photo: e7b48462b6906adb4f458c9c574fc807
   twitter: mjcooke88
 - petr_fruhling:
   name: Petr Fruhling
   title: Director
-  blurb: "My name is Petr, I'm a person"
+  blurb:
   photo: 
   twitter: Freela101
