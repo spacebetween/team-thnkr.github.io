@@ -22,4 +22,18 @@
 			color: #0c7abf;
 		}
 	}
+	&_contact {
+		margin: 0;
+		list-style-type: none;
+		li{
+			margin: 5px 0;
+		}
+		a{
+			color: #888;
+			&:hover{
+				color: darken(#888, 20%);
+			}
+		}
+
+	}
 }
