@@ -12,9 +12,25 @@ layout: default
 						<img class="article_image" src="https://www.gravatar.com/avatar/{{ person.photo }}?s=100">
 						<div class="article_information">
 							<p>{{ person.name }} - <span class="article_description">{{ person.title }}</span></p>
-							{% if {{person.twitter}} %}
-								<a href="https://twitter.com/{{ person.twitter }}" class="article_twitter twitter-follow-button" data-show-count="false">Follow @{{ person.twitter }}</a>
-							{% endif %}
+							<ul class="article_contact">
+								{% if {{person.twitter}} %}
+								<li>
+									<a href="https://twitter.com/{{ person.twitter }}" class="article_twitter twitter-follow-button" data-show-count="false">Follow @{{ person.twitter }}</a>
+								</li>
+								{% endif %}
+								{% if {{person.email}} %}
+								<li>
+									<a href="mailto:{{ person.email }}">{{ person.email }}</a>
+								</li>
+								{% endif %}
+								{% if {{person.phone}} %}
+								<li>
+									<a href="tel:{{ person.phone }}">{{ person.phone }}</a>
+								</li>
+								{% endif %}
+							</ul>
+							
+							
 						</div>
 					</div>
 					<div class="columns small-12 medium-6">
